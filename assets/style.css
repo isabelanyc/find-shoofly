@@ -1,0 +1,140 @@
+/* Global styles for findshoofly.com */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero a.cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero a.cta:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-bar {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filter-bar label {
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.filter-bar select,
+.filter-bar input[type="text"] {
+  padding: 0.375rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  text-align: left;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e5e5e5;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
