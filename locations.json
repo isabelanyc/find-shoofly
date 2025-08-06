@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Dutch Haven",
+    "address": "2857A Lincoln Highway E, Ronks, PA 17572",
+    "city": "Ronks",
+    "state": "PA",
+    "latitude": 40.0158954,
+    "longitude": -76.1584928,
+    "type": "wet",
+    "website": "https://www.dutchhaven.com",
+    "description": "Landmark Lancaster County shop in a windmill‑topped building, famous for wet bottom shoofly pie."
+  },
+  {
+    "id": 2,
+    "name": "Shady Maple Smorgasbord",
+    "address": "129 Toddy Dr, East Earl, PA 17519",
+    "city": "East Earl",
+    "state": "PA",
+    "latitude": 40.115952,
+    "longitude": -76.032127,
+    "type": "wet",
+    "website": "https://www.shady-maple.com",
+    "description": "Huge buffet restaurant where wet bottom shoofly pie is a permanent resident on the dessert bar."
+  },
+  {
+    "id": 3,
+    "name": "Achenbach’s Pastries",
+    "address": "375 E Main St, Leola, PA 17540",
+    "city": "Leola",
+    "state": "PA",
+    "latitude": 40.089,
+    "longitude": -76.174,
+    "type": "wet",
+    "website": "https://achenbachs.com",
+    "description": "Family bakery known for Long John donuts and other baked goods, including highly rated wet bottom shoofly pie."
+  },
+  {
+    "id": 4,
+    "name": "Bird in Hand Bake Shop",
+    "address": "542 Gibbons Rd, Bird in Hand, PA 17505",
+    "city": "Bird in Hand",
+    "state": "PA",
+    "latitude": 40.042,
+    "longitude": -76.182,
+    "type": "both",
+    "website": "https://bihbakeshop.com",
+    "description": "Homemade Amish‑style bake shop offering pies, whoopie pies and other treats; claims to make the best shoofly pie in the county."
+  },
+  {
+    "id": 5,
+    "name": "Granny’s Discount Groceries",
+    "address": "375 E Main St, Lancaster, PA 17602",
+    "city": "Lancaster",
+    "state": "PA",
+    "latitude": 40.0379,
+    "longitude": -76.3055,
+    "type": "wet",
+    "website": "https://lanclocal.com",
+    "description": "Small Amish‑owned grocery store with scratch‑made baked goods, including wet bottom shoofly pie."
+  },
+  {
+    "id": 6,
+    "name": "Lancaster Central Market",
+    "address": "23 N Market St, Lancaster, PA 17603",
+    "city": "Lancaster",
+    "state": "PA",
+    "latitude": 40.038,
+    "longitude": -76.305,
+    "type": "wet",
+    "website": "https://centralmarketlancaster.com",
+    "description": "Historic market where several vendors sell wet bottom shoofly pies, including Marley’s Country Goods, Shady Maple and Zig’s Bakery."
+  },
+  {
+    "id": 7,
+    "name": "Miller’s Bakery",
+    "address": "2811 Lincoln Hwy E, Ronks, PA 17572",
+    "city": "Ronks",
+    "state": "PA",
+    "latitude": 40.017,
+    "longitude": -76.175,
+    "type": "wet",
+    "website": "https://shoppesatmillers.com",
+    "description": "Bakery attached to Miller’s Smorgasbord serving the classic Pennsylvania Dutch wet bottom shoofly pie."
+  },
+  {
+    "id": 8,
+    "name": "Root’s Country Market",
+    "address": "705 Graystone Rd, Manheim, PA 17545",
+    "city": "Manheim",
+    "state": "PA",
+    "latitude": 40.164,
+    "longitude": -76.396,
+    "type": "wet",
+    "website": "https://rootsmarket.com",
+    "description": "Tuesday‑only farmers market where numerous stands offer shoofly pies along with produce and crafts."
+  },
+  {
+    "id": 9,
+    "name": "S. Clyde Weaver",
+    "address": "5253 Main St, East Petersburg, PA 17520",
+    "city": "East Petersburg",
+    "state": "PA",
+    "latitude": 40.099,
+    "longitude": -76.354,
+    "type": "both",
+    "website": "https://sclydeweaver.com",
+    "description": "Specialty meat and cheese shop that also sells wet bottom shoofly pies in store and ships them nationwide."
+  }
+]

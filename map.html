@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoofly Pie Map – findshoofly.com</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- Leaflet CSS from CDN -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+</head>
+<body>
+  <header>
+    <h1>findshoofly.com</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="list.html">List</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Interactive Shoofly Pie Map</h2>
+    <div class="filter-bar">
+      <label for="state-select">State:</label>
+      <select id="state-select"></select>
+      <label for="city-select">City:</label>
+      <select id="city-select"></select>
+      <label for="type-select">Style:</label>
+      <select id="type-select">
+        <option value="">All</option>
+        <option value="wet">Wet bottom</option>
+        <option value="dry">Dry bottom</option>
+        <option value="both">Both</option>
+      </select>
+      <button id="apply-filter">Apply Filter</button>
+    </div>
+    <div id="map"></div>
+  </main>
+  <footer>
+    &copy; 2025 findshoofly.com. All rights reserved.
+  </footer>
+  <!-- Leaflet JS from CDN -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="assets/map.js"></script>
+</body>
+</html>

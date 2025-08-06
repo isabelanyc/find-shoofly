@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoofly Pie Directory – findshoofly.com</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header>
+    <h1>findshoofly.com</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="list.html">List</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Shoofly Pie Directory</h2>
+    <div class="filter-bar">
+      <label for="search-input">Search:</label>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search by name..."
+      />
+      <label for="state-filter">State:</label>
+      <select id="state-filter"></select>
+      <label for="type-filter">Style:</label>
+      <select id="type-filter">
+        <option value="">All</option>
+        <option value="wet">Wet bottom</option>
+        <option value="dry">Dry bottom</option>
+        <option value="both">Both</option>
+      </select>
+      <button id="apply-list-filter">Apply Filter</button>
+    </div>
+    <div class="table-container">
+      <table id="locations-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Style</th>
+            <th>Address</th>
+            <th>Website</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 findshoofly.com. All rights reserved.
+  </footer>
+  <script src="assets/list.js"></script>
+</body>
+</html>

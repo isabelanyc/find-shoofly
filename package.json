@@ -1,0 +1,11 @@
+{
+  "name": "find-shoofly",
+  "version": "0.1.0",
+  "description": "A simple static website that lists places selling shoofly pie and shows them on an interactive map.",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
