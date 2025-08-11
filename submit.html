@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Submit a Shoofly Spot</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <h1>
+        <img class="icon" src="assets/shoofly-hero.jpg" alt="Shoofly pie" />
+        Submit a Shoofly Spot
+        <img class="icon" src="assets/shoofly-hero.jpg" alt="Shoofly pie" />
+      </h1>
+    </div>
+
+    <nav class="main-nav">
+      <a href="map.html">Shoofly Map</a>
+      <a href="list.html">Shoofly List</a>
+      <a href="index.html">About Shoofly</a>
+    </nav>
+
+    <section class="section">
+      <h2>Submit a Shoofly Spot</h2>
+      <p>Know a place that serves great shoofly pie? Let us know!</p>
+      <form action="https://formspree.io/f/mwpqwejb" method="POST">
+        <label>Name of Place:<br><input type="text" name="place" required /></label><br><br>
+        <label>City, State:<br><input type="text" name="location" required /></label><br><br>
+        <label>Style:<br>
+          <select name="style">
+            <option>Wet Bottom</option>
+            <option>Dry Bottom</option>
+            <option>Both</option>
+          </select>
+        </label><br><br>
+        <label>Notes:<br><textarea name="notes" rows="4"></textarea></label><br><br>
+        <button type="submit">Submit Spot</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 findshoofly.com. All rights reserved.
+  </footer>
+</body>
+</html>

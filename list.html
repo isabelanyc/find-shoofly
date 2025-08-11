@@ -3,57 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>findshoofly.com</title>
+  <title>Shoofly List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" />
-  <style>
-    body {
-      background-color: #faf4ef;
-      font-family: 'Georgia', serif;
-      color: #4b2e2e;
-      margin: 0;
-    }
-    .hero {
-      text-align: center;
-      padding: 2rem;
-      background-image: url('assets/shoofly-hero.jpg');
-      background-size: cover;
-      background-position: center;
-      color: white;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      background-color: rgba(0,0,0,0.5);
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem;
-    }
-    nav {
-      background-color: #fff2e6;
-      border-top: 2px solid #e0c9a6;
-      border-bottom: 2px solid #e0c9a6;
-      padding: 1rem 0;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      font-size: 1.2rem;
-    }
-    nav a {
-      color: #4b2e2e;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
-  <div class="hero">
-    <h1>Find Shoofly</h1>
-  </div>
-  <nav>
-    <a href="map.html">🥧 Shoofly Map</a>
-    <a href="list.html">🥧 Shoofly List</a>
-    <a href="about.html">🥧 About Find Shoofly</a>
-  </nav>
+  <main>
+    <div class="hero">
+      <img src="assets/shoofly-hero.jpg" alt="Shoofly Pie" class="pie-icon">
+      <h1>Shoofly List</h1>
+      <img src="assets/shoofly-hero.jpg" alt="Shoofly Pie" class="pie-icon">
+    </div>
+
+    <nav class="main-nav">
+      <a href="map.html">🥧 Shoofly Map</a>
+      <a href="list.html">🥧 Shoofly List</a>
+      <a href="index.html">🥧 About Shoofly</a>
+    </nav>
+
+    <section class="section">
+      <table id="shoofly-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Style</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <a href="submit.html" class="button">Submit a Shoofly Spot</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 findshoofly.com. All rights reserved.
+  </footer>
+
+  <script src="assets/list.js"></script>
 </body>
 </html>
